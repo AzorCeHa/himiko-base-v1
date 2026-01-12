@@ -1,0 +1,32 @@
+{
+  "name": "himiko-base-v1",
+  "version": "1.0.0",
+  "description": "Base template for Telegram bot development",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "author": "AzorCeha (github: AzorCeHa)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AzorCeHa/himiko-base-v1.git"
+  },
+  "keywords": [
+    "telegram-bot",
+    "template",
+    "nodejs",
+    "himiko"
+  ],
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
